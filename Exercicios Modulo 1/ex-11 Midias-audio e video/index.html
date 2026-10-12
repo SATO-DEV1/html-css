@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="./imagens/foto-p.png" type="image/png">
+    
+       <source media="(max-width: 1000px)" srcset="./imagens/foto-m.png" type="image/png">
+<img src="./imagens/foto-g.png" alt="Imagem flexível">
+<p>Usamos a tag &lt;source&gt; media type para o carregamento da imagens e também usamos a tag-- <code>img &lt;src="./imagens/foto-g.png" alt="Imagem flexível"&gt;</code></p>
+    </picture>
+   <h1>Vamos aprender a reproduzir áudio em HTML5.</h1>
+   <audio src="midia/WouldItMatter-RoseCampbell.mp3" controls autoplay></audio>
+<!--MP3 WAV OGG-->
+<audio preload="metadata" autoplay controls loop>
+<source src="midia/WouldItMatter-RoseCampbell.mp3" type="audio/mpeg">
+<source src="midia/WouldItMatter-RoseCampbell.ogg" type="audio/ogg">
+<source src="midia/WouldItMatter-RoseCampbell.wav" type="audio/wave">
+<p>Infelizmente seu navegador não consegue reproduzir áudio
+<a href="midia/WouldItMatter-RoseCampbell.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+</audio>
+<br>
+<p>A tag &lt;audio&gt; foi usada e criamos o parametro source src dentro dela lembre de colocar as 3 opções de áudio mp3;ogg;wav e no type só o mpe fica audio/mpeg! Wav não é aconselhado!</p>
+<!--Arquivos de vbideos MP4 OGV M4V-->
+
+</body>
+</html>
