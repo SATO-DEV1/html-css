@@ -4,7 +4,7 @@
     "editor.suggestOnTriggerCharacters": true,
     "editor.inlineSuggest.enabled": true,
     "editor.parameterHints.enabled": false,
-    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnEnter": "on",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.suggest.preview": false,
     "emmet.showSuggestionsAsSnippets": true
